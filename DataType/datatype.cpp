@@ -34,7 +34,7 @@ int main(void)
     cout << "float: " << float_max << endl;
     cout << "double: " << double_max << endl;
     cout << "long long: " << longlong_max << endl;
-    cout << "char: " << int(char_max) << endl;
+    cout << "char: " << int(char_max) << endl;  // Convert char_max to integer because we want to know its value 
     cout << endl;
 
     cout << "============================" << endl;
