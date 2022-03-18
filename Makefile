@@ -1,6 +1,8 @@
+OUT_DIR = build
+
 all:
-		@mkdir -p bin
+		@mkdir -p $(OUT_DIR)
 		g++ -std=c++11 src/hello.cpp -o bin/hello
 
 clean:
-		@rm -rf bin
+		@rm -rf $(OUT_DIR)
