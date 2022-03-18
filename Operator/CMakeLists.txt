@@ -3,3 +3,4 @@ project(Operator)
 
 add_executable(operator-1 operator-1.cpp)
 add_executable(operator-2 operator-2.cpp)
+add_executable(operator-3 operator-3.cpp)
