@@ -6,4 +6,5 @@ set(CMAKE_CXX_FLAGS "-std=c++11")
 
 add_subdirectory(Hello)
 add_subdirectory(DataType)
-add_subdirectory(basicIO)
+add_subdirectory(BasicIO)
+add_subdirectory(Operator)
