@@ -22,6 +22,8 @@ all:
 		g++ -std=c++11 Namespace/namespace.cpp -o $(OUT_DIR)/namespace
 		g++ -std=c++11 Header/main.cpp Header/func.cpp -o $(OUT_DIR)/header
 		g++ -std=c++11 Argument/argument.cpp -o $(OUT_DIR)/argument
+		g++ -std=c++11 Pointer/pointer-1.cpp -o $(OUT_DIR)/pointer-1
+		g++ -std=c++11 Pointer/pointer-2.cpp -o $(OUT_DIR)/pointer-2
 
 clean:
 		@rm -rf $(OUT_DIR)
