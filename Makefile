@@ -13,6 +13,12 @@ all:
 		g++ -std=c++11 Ifelse/ifelse-2.cpp -o $(OUT_DIR)/ifelse-2
 		g++ -std=c++11 Switchcase/switchcase-1.cpp -o $(OUT_DIR)/switchcase-1
 		g++ -std=c++11 Switchcase/switchcase-2.cpp -o $(OUT_DIR)/switchcase-2
+		g++ -std=c++11 Loop/forloop.cpp -o $(OUT_DIR)/forloop
+		g++ -std=c++11 Loop/whileloop.cpp -o $(OUT_DIR)/whileloop
+		g++ -std=c++11 Loop/dowhileloop.cpp -o $(OUT_DIR)/dowhileloop
+		g++ -std=c++11 Loop/loop.cpp -o $(OUT_DIR)/loop
+		g++ -std=c++11 Function/function.cpp -o $(OUT_DIR)/function
+		g++ -std=c++11 Array/array.cpp -o $(OUT_DIR)/array
 		g++ -std=c++11 Namespace/namespace.cpp -o $(OUT_DIR)/namespace
 
 clean:

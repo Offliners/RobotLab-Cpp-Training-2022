@@ -10,6 +10,8 @@ add_subdirectory(BasicIO)
 add_subdirectory(Operator)
 add_subdirectory(Ifelse)
 add_subdirectory(Switchcase)
+add_subdirectory(Loop)
+add_subdirectory(Function)
 
 add_subdirectory(Namespace)
 
