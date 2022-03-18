@@ -1,1 +1,33 @@
 # NTU ME Robotics Lab - C++ Training (20220319)
+
+## Environment
+* Docker - Ubuntu:18.04
+* WSL2 - Ubuntu18.04
+* gcc & g++ version : 7.5.0
+
+## Usage
+* 使用`Makefile`
+```shell
+$ git clone https://github.com/Offliners/RobotLab-Cpp-Training-2022.git
+$ cd RobotLab-Cpp-Training-2022
+$ make                      // 編譯所有檔案來產生執行檔，執行檔都放在build資料夾中
+$ cd build
+$ ./hello                   // 執行hello執行檔
+Hello World!
+
+$ make clean                // 使用完畢後可以輸入此指令來刪除所有執行檔
+```
+
+* 使用`CMakeLists.txt`
+```shell
+$ mkdir build               // 建立build資料夾來放個專案
+$ cd build                  // 前往build
+$ cmake ..                  // 產生Makefile
+$ make                      // 編譯來產生執行檔，執行檔都在各專案資料夾中
+$ cd Hello                  // 前往Hello
+$ ./hello                   // 執行hello執行檔
+Hello World!
+
+$ cd ..
+$ make clean                // 使用完畢後可以輸入此指令來刪除所有執行檔
+```
