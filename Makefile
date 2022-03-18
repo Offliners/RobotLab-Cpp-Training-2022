@@ -20,6 +20,8 @@ all:
 		g++ -std=c++11 Function/function.cpp -o $(OUT_DIR)/function
 		g++ -std=c++11 Array/array.cpp -o $(OUT_DIR)/array
 		g++ -std=c++11 Namespace/namespace.cpp -o $(OUT_DIR)/namespace
+		g++ -std=c++11 Header/main.cpp Header/func.cpp -o $(OUT_DIR)/header
+		g++ -std=c++11 Argument/argument.cpp -o $(OUT_DIR)/argument
 
 clean:
 		@rm -rf $(OUT_DIR)

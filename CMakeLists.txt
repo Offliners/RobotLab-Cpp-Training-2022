@@ -12,6 +12,7 @@ add_subdirectory(Ifelse)
 add_subdirectory(Switchcase)
 add_subdirectory(Loop)
 add_subdirectory(Function)
-
+add_subdirectory(Array)
 add_subdirectory(Namespace)
-
+add_subdirectory(Header)
+add_subdirectory(Argument)
