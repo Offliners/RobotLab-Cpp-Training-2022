@@ -5,6 +5,14 @@
 * WSL2 - Ubuntu18.04
 * gcc & g++ version : 7.5.0
 
+## Docker
+```shell
+$ git clone https://github.com/Offliners/RobotLab-Cpp-Training-2022.git
+$ cd RobotLab-Cpp-Training-2022/docker
+$ docker build -t cpp_training . --no-cache
+$ docker run cpp_training
+```
+
 ## Usage
 * 使用`Makefile`
 ```shell
@@ -20,6 +28,7 @@ $ make clean                // 使用完畢後可以輸入此指令來刪除所�
 
 * 使用`CMakeLists.txt`
 ```shell
+$ git clone https://github.com/Offliners/RobotLab-Cpp-Training-2022.git
 $ mkdir build               // 建立build資料夾來放個專案
 $ cd build                  // 前往build
 $ cmake ..                  // 產生Makefile
