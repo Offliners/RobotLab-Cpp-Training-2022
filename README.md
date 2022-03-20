@@ -1,4 +1,7 @@
 # NTU ME Robotics Lab - C++ Training (20220319)
+Report : [20220319_training.pdf]
+
+Video : `Coming soon`
 
 ## Environment
 * Docker - Ubuntu:18.04
