@@ -8,8 +8,6 @@ Training Test will be released in `2022/5/28`
 ## Test Content
 6 questions in total (Maybe)
 
-## Todo
-
 ## Environment
 * Docker - Ubuntu:18.04
 * WSL2 - Ubuntu18.04
