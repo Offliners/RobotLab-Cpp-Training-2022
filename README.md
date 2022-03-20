@@ -1,7 +1,14 @@
 # NTU ME Robotics Lab - C++ Training (20220319)
-Report : [20220319_training.pdf]
+Report : [pdf](20220319_training.pdf)
 
 Video : `Coming soon`
+
+Training Test will be released in `2022/5/28`
+
+## Test Content
+6 questions in total (Maybe)
+
+## Todo
 
 ## Environment
 * Docker - Ubuntu:18.04
