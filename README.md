@@ -3,12 +3,13 @@
 # NTU ME Robotics Lab - C++ Training (20220319)
 Report : [pdf](20220319_training.pdf)
 
-Video : `Coming soon`
-
-Training Test will be released in `2022/5/28`
-
 ## Test Content
-6 questions in total (Maybe)
+Detail : [pdf](test/2022_cpp_test.pdf)
+
+* Q1 – [GPA Calculator](test/q1/q1.md)
+* Q2 – [Vocabulary 7000](test/q2/q2.md)
+* Q3 – [Pointer](test/q3/q3.md)
+* Q4 – [Bowling](test/q4/q4.md)
 
 ## Environment
 * Docker - Ubuntu:18.04
