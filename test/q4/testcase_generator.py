@@ -103,7 +103,8 @@ def sol(in_path, out_path):
             else:
                 total += convert(records, i)
         
-        reward = round(40 * 1.1**count_spare * 1.2**count_strike)
+        reward = q4_cfg['reward']
+        reward = round(reward * 1.1**count_spare * 1.2**count_strike)
 
         with open(out_path, 'w') as f:
             f.writelines(f'{total}\n')
