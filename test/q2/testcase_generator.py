@@ -1,3 +1,4 @@
+from itertools import count
 import os
 import csv
 import random
@@ -16,8 +17,8 @@ def gen(M):
     file_known.close()
 
     with open(q2_cfg['unknown_txt'], 'r', encoding='cp950') as f:
-        for line in f.readlines()[0].strip():
-            english_voc.append(line)
+        for line in f.readlines():
+            english_voc.append(line.strip())
 
     word_num = len(english_voc)
     selects = random.sample(range(1, word_num), M)
@@ -49,7 +50,6 @@ def gen(M):
             test_cases.append(new_word)
         else:
             test_cases.append(english_voc[select])
-
 
     return test_cases
 
