@@ -6,6 +6,8 @@ Report : [pdf](20220319_training.pdf)
 ## Test Content (2022/6/3 released)
 Detail : [pdf](test/2022_cpp_test.pdf)
 
+Update log : [log](test/update_log.md)
+
 * Q1 – [GPA Calculator](test/q1/q1.md)
 * Q2 – [Vocabulary 7000](test/q2/q2.md)
 * Q3 – [Pointer](test/q3/q3.md)
