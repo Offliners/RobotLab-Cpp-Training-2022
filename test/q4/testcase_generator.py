@@ -98,7 +98,7 @@ def sol(in_path, out_path):
                 count_spare += 1
                 total += convert(records, i)
 
-                if i < len(records) - 2:
+                if i < len(records) - 1:
                     total += convert(records, i+1)
             else:
                 total += convert(records, i)
@@ -119,5 +119,5 @@ for i in range(N):
     with open(os.path.join(save_path, f'{i}.in'), 'w') as f:
         cases = gen()
         f.writelines(cases + '\n')
-    
+
     sol(os.path.join(save_path, f'{i}.in'), os.path.join(save_path, f'{i}.out'))
