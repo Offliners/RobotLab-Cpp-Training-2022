@@ -3,7 +3,7 @@
 # NTU ME Robotics Lab - C++ Training (20220319)
 Report : [pdf](20220319_training.pdf)
 
-## Test Content
+## Test Content (2022/6/3 released)
 Detail : [pdf](test/2022_cpp_test.pdf)
 
 * Q1 – [GPA Calculator](test/q1/q1.md)
