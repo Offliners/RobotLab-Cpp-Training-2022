@@ -8,6 +8,8 @@ Detail : [pdf](test/2022_cpp_test.pdf)
 
 Update log : [log](test/update_log.md)
 
+Solution : [Link](test/sol/solve.md)
+
 * Q1 – [GPA Calculator](test/q1/q1.md)
 * Q2 – [Vocabulary 7000](test/q2/q2.md)
 * Q3 – [Pointer](test/q3/q3.md)
