@@ -33,7 +33,7 @@ accessory,n.附件
 accident,n.事故
 accidental,adj.偶然的；意外的
 acclaim,v./n.歡呼；歡呼聲
-accommodation,n住所
+accommodation,n.住所
 accompany,v.陪同
 accomplish,v.完成
 accomplished,adj.有才藝的
@@ -54,7 +54,7 @@ accuse,v.把…歸咎(於)；指控
 accustom,v.使習慣
 ace,n.一點(撲克牌)；能手
 ache,n./v.疼痛
-achieve(ment),v.(n)完成；達到
+achieve,v.(n)完成；達到
 acoustic,adj.聽覺的
 acquaintance,n.熟人
 acquire,v.取得
@@ -81,7 +81,7 @@ additional,adj.附加的
 address,n./v.地址；致詞
 adequately,adv.充分地
 adjoin,v.毗連
-adjust(ment),v.(n.)調整
+adjust,v.(n.)調整
 administrative,adj.行政的
 administrator,n.行政官員
 admirable,adj.令人欽佩的
@@ -101,7 +101,7 @@ advantage,n.有利條件；優勢
 adventure,n.冒險
 adverse,adj.反對的
 advert,v.提及
-advertise(ment),v.(n)為…做廣告
+advertise,v.(n)為…做廣告
 advertising,n.廣告業
 advice,n.勸告；消息
 advise,v.勸告；忠告；通知
@@ -119,7 +119,7 @@ afraid,adj.害怕的
 after,prep./adv./adj.在…之後；以後的
 aftermath,n.餘波
 afternoon,n.下午
-afterward(s),adv.以後
+afterward,adv.以後
 again,adv.再一次
 against,prep.反對；對著
 age,n./v.年齡；使變老
@@ -132,7 +132,7 @@ aggressive,adj.好鬥的；積極的
 aging,adj.變老的
 ago,adv. 在～以前
 agony,n.痛苦
-agree(ment),v.(n)同意
+agree,v.(n)同意
 agriculture,n.農業
 ahead,adv.在·前面；領先
 aid,n./v.幫助
@@ -193,7 +193,7 @@ altogether,adv.完全；總而言之
 aluminum,n.鋁
 always,adv.總是；永遠
 amateur,n./adj.業餘從事者；業餘的
-amaze(ment),v.(n)使驚愕
+amaze,v.(n)使驚愕
 amazing,adj.令人驚訝的
 ambassador,n.大使；使節
 ambiguity,n.意義含糊
@@ -208,7 +208,7 @@ ammunition,n.彈藥
 amnesty,n.大赦
 among,prep.在…之中
 amount,n./v.共計；總數
-amuse(ment),v.(n.)給～提供娛樂
+amuse,v.(n.)給～提供娛樂
 analects,n.語錄
 analogy,n.相似
 analysis,n.分析
@@ -220,14 +220,14 @@ ancient,adj.古代的
 anecdote,n.軼事
 angel,n.天使
 anger,n.生氣
-angle,n角度；立場
+angle,n.角度；立場
 angler,n.釣魚者
 angry,adj.生氣的
 angular,adj.有尖角的
 animal,n.動物
 ankle,n.足踝
 anniversary,n.週年紀念
-announce(ment),v.(n.) 宣布
+announce,v.(n.) 宣布
 annual,adj.一年一度的
 anonymous,adj.不具名的
 another,adj./pron.另一個
@@ -289,7 +289,7 @@ architecture,n.建築學；建築風格
 archive,n.檔案
 area,n.區域；範圍
 arena,n.活動場所(供運動、娛樂的)
-argue(ment),v.(n.)爭論；主張
+argue,v.(n.)爭論；主張
 arise,v.升起；復活
 arithmetic,adj./n.算術的
 arm,n.手臂
@@ -298,7 +298,7 @@ armed,adj.武裝的
 army,n.軍隊；團體
 around,prep./adv.各處；大約
 arouse,v.喚起
-arrange(ment),v.(n.) 安排
+arrange,v.(n.) 安排
 array,n.一長列
 arrest,v./n.逮捕；拘留
 arrival,n.到達；到達者
@@ -333,7 +333,7 @@ assertion,n.紙張
 assertive,adj.武斷的
 assertively,adv.武斷地
 asset,n.資產
-assign(ment),v.(n.) 指派
+assign,v.(n.) 指派
 assist,v.協助
 assistance,n.協助
 assistant,n.助理
@@ -350,7 +350,7 @@ asylum,n.庇護(所)
 athlete,n.運動員
 athletic,adj.運動的
 atmosphere,n.氣壓；氣氛
-attach(ment),v.(n.) 裝上；附加
+attach,v.(n.) 裝上；附加
 attack,v./n.攻擊
 attainment,n.達到
 attempt,v./n.嘗試
@@ -387,7 +387,7 @@ avoid,v.避免；躲開
 await,v.等候；期待
 awake,adj./v.清醒的；喚醒
 awaken,v.意識到；使覺醒
-awaking,adj使人覺醒的
+awaking,adj.使人覺醒的
 award,v./n授予；獎品
 away,adv.離開；不在
 awful,adj.糟透的
@@ -399,7 +399,7 @@ baby-sitter,n.保姆
 bachelor,n.單身漢；學士
 back,adj./adv./n./v. 後面的；背部；贊助
 background,n.背景
-backward(s),adv.反方向地
+backward,adv.反方向地
 bacon,n.燻豬肉；培根肉
 bacteria,n.細菌
 bad,adj.不好的；有害的
@@ -463,7 +463,7 @@ battery,n.電池
 battle,n./v.戰役
 battlefield,n.戰場
 bay,n.海灣
-BBC,n英國廣播公司
+BBC,n.英國廣播公司
 B.C.,n.西元前
 beach,n.海灘
 beam,n.樑；光束
@@ -530,7 +530,7 @@ bid,v.出價；吩咐
 big,adj.大的
 bikini,n.三點式泳裝
 bill,n.帳單；鈔票
-billion,n.十億；大量
+billion,n.十億；大量
 billionaire,n.億萬富翁
 bind,v.捆；綁
 bingo,n.賓果遊戲
@@ -635,7 +635,7 @@ bread,n.麵包
 break,n./v.打破；破曉
 breakdown,n.故障
 breakfast,n./v.早餐
-breakthrough,n突破
+breakthrough,n.突破
 break-up,n.瓦解
 breast,n.胸部
 breath,n.呼吸
@@ -668,7 +668,7 @@ brood,n.一窩
 brook,n.小河
 brother,n.兄弟
 brown,adj./n.棕色的
-browse,v噹食；瀏覽
+browse,v.噹食；瀏覽
 brush,n./v.刷子；刷
 brutal,adj.殘忍的
 brutality,n.野蠻
@@ -744,14 +744,14 @@ candidate,n.候選人
 candle,n.蠟燭
 candy,n.糖果
 cane,n.藤條；甘蔗
-canvas,n帆布
+canvas,n.帆布
 canyon,n.峽谷
 cap,n./v.帽子；覆蓋
 capable,adj.有能力的
 capacity,n.容量；能力
-cape,n披肩；海角
+cape,n.披肩；海角
 capital,adj./n.主要的；首都；資本
-capital(ism),n.資本主義(制度)
+capital,n.資本主義(制度)
 capitalist,n.資本家
 capitol,n.美國州議會大廈
 captain,n.隊長；船(艦)長
@@ -805,12 +805,12 @@ cautious,adj.小心的
 cautiously,adv.小心地
 cavalry,n.騎兵(隊)
 cave,n.洞穴
-CD,n.(=compact disc)光碟
+CD,n.光碟
 cease,v.停止
 ceasefire,n.停火協定
 ceiling,n.天花板
 celebrate,v.慶祝
-celebration,n慶祝
+celebration,n.慶祝
 celebrity,n.名人(聲)
 cell,n.小囚房；細胞
 cellar,n.地窖
@@ -853,7 +853,7 @@ charming,adj.有魅力的
 chart,n./v.圖表
 chase,v./n.追逐
 chat,v./n.聊天
-chatterbox,n、喋喋不休的人
+chatterbox,n.喋喋不休的人
 cheap,adj.便宜的
 cheat,v./n.作弊；欺騙
 check,n./v.支票；檢查
@@ -902,7 +902,7 @@ choke,v./n.窒息；阻塞
 cholesterol,n.膽固醇
 choose,v.選擇
 chop,v./n.劈；肋排肉
-chopstick(s),n.筷子
+chopstick,n.筷子
 chorus,n.合唱隊
 Christianity,n.基督教
 chronic,adj.慢性的
@@ -1027,7 +1027,7 @@ commend,v.稱讚
 comment,n./v.評論
 commentary,n.評述
 commentator,n.評論家
-commerce,n商業；交易
+commerce,n.商業；交易
 commercial,adj./n.商業的
 commission,n./v.佣金；委託
 commit,v.犯(罪)；把…託交給…
@@ -1043,7 +1043,7 @@ communicative,adj.愛說話的
 communist,n./adj./n.共產主義的；共產主義者
 community,n.社區；共同體
 commute,v.通勤
-commuter,n通勤者
+commuter,n.通勤者
 compact,adj.緊密的
 companion,n.夥伴；伴侶
 companionship,n.交誼
@@ -1099,7 +1099,7 @@ conceive,v.認為；構想
 conceited,adj.自大的
 conceitedly,adv.自負地
 concentrate,v.專心
-concentration,n專心；集中
+concentration,n.專心；集中
 concern,n./v.關心；涉及
 concert,n.演奏會；音樂會
 concession,n.讓步
@@ -1130,7 +1130,7 @@ confront,v.面臨；對抗
 confrontation,n.對質；對抗
 Confucius,n.孔子
 confuse,v.把…弄糊塗；攪亂
-confused,adj困惑的
+confused,adj.困惑的
 confusion,n.混亂；困惑
 congratulate,v.恭喜
 congratulation,n.恭喜
@@ -1187,7 +1187,7 @@ contempt,v.輕視
 contemptible,adj.卑劣的
 contend,v.競爭；鬥爭
 content,adj./v.滿足的
-content(s),n.內容
+content,n.內容
 contented,adj.滿足的
 context,n.上下文
 continent,n.大陸；大洲
@@ -1281,7 +1281,7 @@ course,n.課程；過程
 court,n.法庭
 courteous,adj.有禮貌的
 courtesy,n.有禮的舉止
-courtyard,n庭院
+courtyard,n.庭院
 cousin,n.表(兄弟姊妹)
 cover,n./v.封面；遮蓋
 coverage,n.報導；某事所包含的範圍
@@ -1328,7 +1328,7 @@ crocodile,n.鱷魚
 crop,n.作物
 cross,n./v.交叉；越過
 crossing,n.交叉口
-crossroad,n.十字路口
+crossroad,n.十字路口
 crouch,v.蹲伏
 crow,n.烏鴉；雞啼聲
 crowd,n./v.人群；擠滿
@@ -1400,7 +1400,7 @@ date,n.棗；棗椰樹
 date,n./v.日期；約會
 daughter,n.女兒
 dawn,n./v.黎明；破曉
-day,n白天
+day,n.白天
 daybreak,n.黎明
 daydream,n./v.白日夢
 daylight,n.日光
@@ -1418,7 +1418,7 @@ debt,n.債
 debut,n.初次登臺
 decease,n.死亡
 deceive,v.欺騙
-December,n.十二月
+December,n.十二月
 decency,n.莊重
 decent,adj.得體的
 deception,n.欺騙
@@ -1483,7 +1483,7 @@ dental,adj./n. 牙齒的；齒音(的)
 dentist,n.牙科醫師
 deny,v.否定；否認
 depart,v.分離；啟程
-department,n部門；系
+department,n.部門；系
 departure,n.分離；啟程
 depend,v.依賴
 dependent,adj.依賴性強的
@@ -1529,7 +1529,7 @@ determination,n.決心
 determine,v.決定；堅決
 devalue,v.貶值
 devastating,adj.毀滅性的
-develop(ment),v.(n.)發展
+develop,v.(n.)發展
 deviation,n.偏離
 device,n.裝置
 devil,n.魔鬼
@@ -1593,10 +1593,10 @@ dirty,adj.污穢的
 disability,n.無能
 disable,v.使失去能力
 disadvantage,n.不利之條件
-disagree(ment),v.(n)不同意
+disagree,v.(n)不同意
 disappear,v.消失
-disappoint(ment),v.(n)使失望
-disapproval,n反對
+disappoint,v.(n)使失望
+disapproval,n.反對
 disapprove,v.不贊成
 disaster,n.災難
 disastrous,adj.多災多難的
@@ -1613,7 +1613,7 @@ discomfort,n.不舒適
 disconnect,v.使分離
 discontent,n.不滿
 discount,n./v.折扣
-discourage(ment),v.(n)使洩氣；使沮喪
+discourage,v.(n)使洩氣；使沮喪
 discouraging,adj.令人洩氣的
 discover,v.發現
 discovery,n.發現
@@ -1707,10 +1707,10 @@ done,adj.完成的
 donkey,n.驢
 donor,n.捐贈者
 doom,n./v.厄運；注定
-door,n.
+door,n.門
 dormitory/dorm,n.學生宿舍
 dosage,n.劑量
-dose,n．(藥物等的)一劑
+dose,n.(藥物等的)一劑
 dot,n./v.點；打點於
 double,adj./adv./n./v.兩倍的；雙重地
 doubt,v./n.懷疑；疑點
@@ -1724,7 +1724,7 @@ downstairs,adv./adj./n.樓下
 downtown,adv./adj./n.在城市的商業區；鬧區
 downwards,adv.向下的
 doze,v.打瞌睡
-dozen,n.一打；十二個
+dozen,n.一打；十二個
 draft,n./v.草稿
 drag,v.拖曳
 dragon,n.龍
@@ -1739,7 +1739,7 @@ draught,n./v.(=draft)草圖；草擬
 draw,v.畫；拖拉
 drawback,n.障礙；缺點
 drawer,n.抽屜；拖曳者
-drawing,n素描；製圖
+drawing,n.素描；製圖
 dread,n./v.害怕
 dreadful,adj.可怕的
 dream,n./v.夢；做夢
@@ -1830,8 +1830,8 @@ effort,n.努力
 egg,n.蛋；卵細胞
 ego,n.自我
 eight,adj./n八
-eighteen,adj./n.十八
-eighty,adj./n.八十
+eighteen,adj./n.十八
+eighty,adj./n.八十
 either,adj./pron.(兩者之中)任一的
 either,adv.(在否定句中)也
 elaborate,adj.精巧的；複雜的
@@ -1846,7 +1846,7 @@ electric,adj.電的
 electrician,n.電工；電氣技師
 electricity,n.電；電流
 electronic,adj.電子的
-electronics,n電子學
+electronics,n.電子學
 elegant,adj.優雅的
 element,n.元素
 elemental,adj.自然力的
@@ -1854,7 +1854,7 @@ elementary,adj.基本的；初級的
 elephant,n.象
 elevate,v.使提高
 elevator,n.電梯；升降機
-eleven,n.十一
+eleven,n.十一
 eligible,adj./n.有資格的
 eliminate,v.消滅；排除
 elite,n.精英
@@ -1864,7 +1864,7 @@ elsewhere,adv.在別處
 e-mail,n./v.電子郵件
 embargo,v./n.禁止通商
 embark,v.裝船；從事
-embarrass(ment),v.使出糢
+embarrass,v.使出糢
 embassy,n.大使館
 embody,v.包括
 embryo,n./adj.胚胎；未成熟的
@@ -1879,7 +1879,7 @@ emphasis,n.強調
 emphasize,v.強調
 empire,n.帝國；王權
 empirical,adj.憑經驗的
-employ(ment),v.(n)雇用
+employ,v.(n)雇用
 employee,n.雇員
 employer,n.雇主
 empty,adj./v.空的
@@ -1887,7 +1887,7 @@ enable,v.使能夠
 enchant,v.使入迷
 enclose,v.圍住；把(公文等)封入
 encounter,v./n.遭遇；衝突
-encourage(ment),v.(n.)鼓勵
+encourage,v.(n.)鼓勵
 encouraging,adj.有激勵作用的
 encyclopedia,n.百科全書
 end,v./n.結束
@@ -1900,15 +1900,15 @@ endure,v.忍受
 enemy,n.敵人
 energetic,adj.充滿活力的
 energy,n.活力
-enforce(ment),v.(n〕實施
+enforce,v.(n〕實施
 engagement),v.(n)吸引；聘雇；訂婚
 engine,n.發動機；引擎
 engineer,n.工程師
 engineering,n.工程
 enhance,v.增加
-enjoy(ment),v.(n.)享受
+enjoy,v.(n.)享受
 enjoyable,adj.有樂趣的
-enlarge(ment),v.(n.)擴大
+enlarge,v.(n.)擴大
 enlighten,v.敵發
 enlist,v.入伍
 enormous,adj.巨大的
@@ -1919,7 +1919,7 @@ ensue,v.接著發生
 ensure,v.確保
 entail,v.使成為必要
 enter,v.進入；參加
-entertain(ment),v.(n)娛樂
+entertain,v.(n)娛樂
 enthusiasm,n.熱心
 enthusiastic,adj.有熱忱的
 entire,adj.全部的
@@ -1935,7 +1935,7 @@ epic,n./adj.史詩(般的)
 epigram,n.雋語
 equal,adj./n./v.相等的
 equality,n.相等；平等；均等
-equip(ment),v.(n〕裝備以
+equip,v.(n〕裝備以
 equivalent,adj./n.相同的
 era,n.年代
 erase,v.擦掉；抹去
@@ -1952,7 +1952,7 @@ essay,n.散文；論說文
 essence,n.本質；精華
 essential,adj.必要的；精華的
 essentially,adv.基本上
-establish(ment),v.(n)建立
+establish,v.(n)建立
 esteem,n./v.尊敬
 estimate,n./v.估計；預計
 etemity,n.永恆
@@ -1993,7 +1993,7 @@ except,prep.除了…之外
 exception,n.例外
 exceptional,adj.例外的；特殊的
 exchange,v./n.交換；交易
-excite(ment),v.(n.)使興奮
+excite,v.(n.)使興奮
 exclaim,v.驚叫
 exclusively,adv.專門地
 excuse,n./v.藉口；原諒
@@ -2117,7 +2117,7 @@ field,n.原野；欄位
 fierce,adj.兇猛的；猛烈的
 fifteen,adj./n.＋五
 fifth,adj./n.第五(的)
-fifty,adj./n.五十
+fifty,adj./n.五十
 fight,v./n.打鬥；爭吵
 fighter,n.鬥士；戰鬥機
 film,n./v.軟片；電影
@@ -2192,15 +2192,15 @@ fort,n.堡壘
 forth,adv.向前
 fortunate,adj.幸運的
 fortune,n.財產；好運
-forty,adj./n.四十
+forty,adj./n.四十
 forward,adj./v.向前；今後
-forward(s),adv.向前；今後
+forward,adv.向前；今後
 found,v.創立
 foundation,n.建立；基金會
 founder,n.創立者；締造者
 fountain,n.噴泉；噴水池
 four,adj./n.四
-fourteen,adj./n.十四
+fourteen,adj./n.十四
 fox,n.狐狸
 fragment,n.碎片；未完成的部分
 fragrance,n.芬芳
@@ -2229,7 +2229,7 @@ fruit,n.水果；成果
 frustrate,v.使挫敗
 fry,v.油炸
 fuel,n./v.燃料；加燃料
-fulfill(ment),v.(n)實現
+fulfill,v.(n)實現
 full,adj.滿的；完全的
 fun,n.娛樂；玩笑
 function,n./v.功能；運行
@@ -2260,7 +2260,7 @@ how,adv.如何；多少
 however,adv./conj.然而
 howl,v.號叫
 hug,n./v.擁抱；抱住
-huge,adj龐大的
+huge,adj.龐大的
 human,adj./n.人類的
 humanity,n.人性；人文學科
 humble,adj.謙恭的
@@ -2342,7 +2342,7 @@ gift,n.禮品；天賦
 gifted,adj.有天賦的
 gigantic,adj.巨人似的；龐大的
 gin,n.杜松子酒
-ginger,n.
+ginger,n.生薑
 giraffe,n.長頸鹿
 girl,n.少女
 give,v.給；送給
@@ -2362,7 +2362,7 @@ globe,n.地球；球狀物
 gloomy,adj.黑暗的
 glorious,adj.光榮的；輝煌的
 glory,n./v.光榮；驕傲
-glove(s),n.手套
+glove,n.手套
 glow,v./n.發光；發熱
 glue,n./v.膠水；黏牢
 go,v.去；從事
@@ -2394,7 +2394,7 @@ gracious,adj.和藹的；雅致的
 grade,n./v.級別；評分
 gradual,adj.逐步的；平緩的
 graduate,v./n.畢業；大學畢業生
-graduation,n畢業；畢業典禮
+graduation,n.畢業；畢業典禮
 grain,n.穀粒；穀物
 gram,n.(重量單位)克
 grammar,n.文法
@@ -2427,7 +2427,7 @@ greedy,adj.貪婪的
 green,adj./n.綠色的
 greenhouse,n.溫室
 greet,v.問候
-greeting(s),n.問候語
+greeting,n.問候語
 gray,adj./n.灰色的
 grief,n.悲傷；不幸
 grieve,v.使悲傷
@@ -2483,7 +2483,7 @@ handicap,n.障礙；不利條件
 handkerchief,n.手帕；圍巾
 handle,n.柄；把手
 handsome,adj.英俊的
-handwriting,n書寫
+handwriting,n.書寫
 handy,adj.手邊的；巫巧的
 hang,v.懸掛；吊死
 hanger,n.衣架；絞刑執行者
@@ -2575,7 +2575,7 @@ holy,adj.神聖的
 home,n./adv.住家；家庭
 homeland,n.祖國；家夠卜
 homeless,adj.無家可歸的
-homely,adj家常的
+homely,adj.家常的
 homesick,adj.懷鄉病的
 hometown,n.永久居留地
 homework,n.家庭作業
@@ -2618,7 +2618,7 @@ how,adv.如何；多少
 however,adv./conj.然而
 howl,v.號叫
 hug,n./v.擁抱；抱住
-huge,adj龐大的
+huge,adj.龐大的
 human,adj./n.人類的
 humanity,n.人性；人文學科
 humble,adj.謙恭的
@@ -2699,7 +2699,7 @@ impersonal,adj.不受個人感情影響的
 implement,v.實現
 implicit,adj.暗示的
 imply,v.暗示
-impolite,adj不禮貌的
+impolite,adj.不禮貌的
 import,n./v.進口
 importance,n.重要性
 important,adj.重要的
@@ -2709,7 +2709,7 @@ impress,v.使銘記
 impression,n.印象
 impressive,adj.令人印象深刻的
 imprison,v.監禁
-improve(ment),v.(n.)改善
+improve,v.(n.)改善
 inability,n.無能力
 inappropriate,adj.不適當的
 incentive,n./adj.刺激
@@ -2766,7 +2766,7 @@ influenza,n.流行性感冒
 inform,v.通知
 informal,adj.非正式的
 information,n.資訊
-informative,adj情報的
+informative,adj.情報的
 ingenuity,n.靈巧
 ingredient,n.組成部分
 inhabitant,n.居民
@@ -2861,7 +2861,7 @@ invasion,n.入侵
 invent,v.發明；創造
 invention,n.發明；創造力
 inventor,n.發明者
-invest(ment),v.(n.)投資；投入
+invest,v.(n.)投資；投入
 investigate,v.調查；研究
 investigation,n.調查；研究
 investigator,n.調查者
@@ -2871,7 +2871,7 @@ invitation,n.邀請
 invite,v.邀請
 inviting,adj.吸引人的
 invoke,v.祈求幫助或保護
-involve(ment),v.(n)使捲入
+involve,v.(n)使捲入
 inward,adj.在內的
 iron,n./adj.鐵；熨斗
 ironic,adj.諷剌的
@@ -2920,7 +2920,7 @@ journey,n.旅行
 joy,n.歡樂
 joyful,adj.高興的
 joyous,adj.快樂的
-judge(ment),n./v.法官
+judge,n./v.法官
 judicial,adj.法庭的
 juice,n.果汁
 July,n.七月
@@ -2938,7 +2938,7 @@ justly,adv.合理的
 juvenile,adj.少年的
 kangaroo,n.袋鼠
 keen,adj.熱衷的
-keenly,adv激烈地
+keenly,adv.激烈地
 keep,v.保存
 ketchup,n.調味蕃茄醬
 kettle,n.水壺
@@ -3091,7 +3091,7 @@ like,n./v.喜歡
 likelihood,n.可能性
 likely,adj.很可能的
 likewise,adv.同樣的
-liking,n愛好
+liking,n.愛好
 lily,n.百合花
 limb,n.肢；臂
 limit,n./v.限制
@@ -3190,7 +3190,7 @@ lyric,n.抒情詩
 machine,n.機器
 machinegun,n.機關槍
 machinery,n.機械裝置
-mad,adj發瘋的；狂熱的
+mad,adj.發瘋的；狂熱的
 madam,n.夫人；太太；小姐
 magazine,n.雜誌；期刊
 magic,adj./n.有魔力的；魔法
@@ -3218,7 +3218,7 @@ male,adj./n.男性的；雄的
 malicious,adj.存心不良的
 mall,n.大規模購物中心
 man,n.男人
-manage(ment),v.(n)管理
+manage,v.(n)管理
 manageable,adj.能處理的
 manager,n.經理；管理人
 mandarin,n.國語
@@ -3286,7 +3286,7 @@ meaningless,adj.無意義的
 means,n.手段；方法
 meanwhile,adv.其問；同時
 measles,n.麻疹
-measure(ment),v./n.測量
+measure,v./n.測量
 meat,n.(食用的)肉
 mechanical,adj.機械的
 mechanics,n.力學；機械學
@@ -3329,7 +3329,7 @@ mess,n.紊亂
 message,n.消息
 messenger,n.使者；信差
 metal,n.金屬
-metaphor,n.
+metaphor,n.暗喻
 metaphysical,adj.玄學的；形而上學的
 meter,n.測量儀表；公尺
 method,n.方法
@@ -3428,8 +3428,8 @@ mortar,n.灰泥
 mosquito,n.蚊
 most,adj./adv.最大程度地
 mostly,adv.大部分
-motel,n汽車旅館
-mother/mom,n.母親；媽媽
+motel,n.汽車旅館
+mother,n.母親；媽媽
 motherhood,n.母性
 motif,n.主旨
 motion,n.運動；動機
@@ -3444,7 +3444,7 @@ mourn,v.悲悼
 mouse,n.鼠；滑鼠
 mouth,n.嘴；口
 movable,adj.可動的
-move(ment),v.(n.)使移動；使感動
+move,v.(n.)使移動；使感動
 movie,n.電影
 Mrs.,n.太太
 much,adj./adv./n.許多的
@@ -3530,8 +3530,8 @@ night,n.夜
 nightingale,n.夜鶯
 nightmare,n.惡夢
 nine,adj./n.九個
-nineteen,adj./n.十九
-ninety,adj./n.九十
+nineteen,adj./n.十九
+ninety,adj./n.九十
 nitrogen,n.氮
 nobility,n.高貴；高尚
 noble,adj.高貴的；貴族的
@@ -3562,7 +3562,7 @@ noticeable,adj.顯明的
 notify,v.通知
 notorious,adj.惡名昭彰的
 noun,n.名詞
-nourish(ment),v.(n〕滋養
+nourish,v.(n〕滋養
 novel,adj.新奇的
 novel,n.長篇小說
 novelist,n.小說家
@@ -3611,7 +3611,7 @@ occupy,v.占領
 occur,v.發生
 ocean,n.海洋
 o'clock,n.點鐘
-October,n.十月
+October,n.十月
 odd,adj.奇特的；奇數的
 odds,n.可能的機會
 offend,v.冒犯；觸怒
@@ -3778,12 +3778,12 @@ patriotic,adj.愛國的
 patron,n.贊助人
 pattern,n.樣式
 pause,n./v.暫停
-pave(ment),v.(n.)鋪(用於被動)
+pave,v.(n.)鋪(用於被動)
 pavement,n.人行道
 paw,n.腳掌；腳爪
 pawn,v.典當
 pawnshop,n.當鋪
-pay(ment),n/v.付錢
+pay,n/v.付錢
 payday,n.發薪日
 pea,n.豌豆
 peace,n.和平
@@ -3870,7 +3870,7 @@ physics,n.物理學
 physiological,adj.生理學的
 pianist,n.鋼琴家
 piano,n.鋼琴
-pick,n./v.十字鎬；挑選
+pick,n./v.十字鎬；挑選
 picket,n.糾察隊員
 pick-up,n.擴音器
 picnic,n./v.野餐；去郊遊野餐
@@ -4001,7 +4001,7 @@ potent,adj.有效力的
 potential,adj./n.潛在的；僭能
 potentiality,n.潛在性
 potter,n./v.陶藝家；閒逛
-pottery,n陶器
+pottery,n.陶器
 poultry,n.家禽(肉)
 pound,n.磅
 pound,v.搗碎
@@ -4164,7 +4164,7 @@ pump,n.泵
 pumpkin,n.南瓜
 punctual,adj.如期的；準時的
 punctuation,n.標點(法)
-punish(ment),v.(n)處罰
+punish,v.(n)處罰
 pupil,n.小學生
 PUPPY,n.小狗
 purchase,n./v.購買
@@ -4250,7 +4250,7 @@ reasonable,adj.有理由的；合理的
 reassure,v.使安心
 rebel,n.反抗者
 rebel,v.謀反
-rebellion,n造反
+rebellion,n.造反
 rebellious,adj.難管教的
 rebuild,v.重建
 recall,v.想出
@@ -4346,7 +4346,7 @@ renaissance,n.復興
 renew,v.回復
 renowned,adj.著名的
 rent,n./v.地租；承租
-reorganization,改組
+reorganization,n.改組
 repair,n./v.修理
 repay,v.償還
 repeat,v.重覆地說(做)
@@ -4366,7 +4366,7 @@ republic,n.共和國
 republican,adj./n.共和國的；共和主義者
 reputation,n.名聲
 request,n./v.要求
-require(ment),v.(n)需求
+require,v.(n)需求
 rescue,n./v.救助
 research,n./v.研究
 researcher,n.研究員
@@ -4482,7 +4482,7 @@ rub,v.摩擦
 rubber,n.橡膠
 rude,adj.不禮貌的
 rug,n.小地毯
-rugged,adj崎嶇的
+rugged,adj.崎嶇的
 ruin,n./v.毀滅
 rule,n./v.規則
 ruler,n.統治者
@@ -4521,7 +4521,7 @@ Satan,n.魔鬼；撒旦
 satellite,n.衛星
 satire,n.諷刺文學
 satisfaction,n.滿意
-satisfactorily,ad二令人滿意地
+satisfactorily,adj.令人滿意地
 satisfactory,adj.滿意的
 satisfy,v.滿意
 Saturday,n.星期六
@@ -4529,10 +4529,10 @@ sauce,n.醬料
 sausage,n.香腸
 savage,adj.兇猛的
 save,v.拯救
-saving(s),n.存款
+saving,n.存款
 saw,n.鋸
 say,v.說
-scale(s),n.標準
+scale,n.標準
 scan,v.細看；掃描
 scandal,n.醜聞
 scare,v.恐嚇
@@ -4550,7 +4550,7 @@ school,n.學校
 science,n.科學
 scientific,adj.科學的
 scientist,n.科學家
-scissor(s),n.剪刀
+scissor,n.剪刀
 scold,v.責備
 score,n./v.刻痕；作訊號
 scorn,n./v.輕蔑；鄙視
@@ -4611,11 +4611,11 @@ servant,n.僕人
 serve,v.侍候
 service,n.服侍
 set,n./v.放置
-settle(ment),v.(n〕決定
+settle,v.(n〕決定
 settler,n.移民
 seven,adj./n.七
-seventeen,adj./n.十七
-seventy,adj./n.七十
+seventeen,adj./n.十七
+seventy,adj./n.七十
 sever,v.割斷
 several,adj./n.幾個的；幾個
 severe,adj.嚴格的
@@ -4659,7 +4659,7 @@ shocked,adj.使震驚
 shocking,adj.受震驚的
 shoe,n.鞋
 shoot,v.發射
-shop,n商店
+shop,n.商店
 shore,n.岸；濱
 short,adj.短的
 shortage,n.短缺
@@ -4679,7 +4679,7 @@ shut,v.關上
 shy,adj.羞怯的
 sibling,n.手足
 sick,adj.有病的
-side,n.
+side,n.旁邊
 sidewalk,n.人行道
 sigh,n./v.嘆息
 sight,n./v.視力；看見
@@ -4721,8 +4721,8 @@ situate,v.使位於
 situated,adj.坐落在…的
 situation,n.形勢
 six,adj./n.六
-sixteen,adj./n.十六
-sixty,adj./n.六十
+sixteen,adj./n.十六
+sixty,adj./n.六十
 sizable,adj.相當大的
 size,n.尺寸
 skate,n./v.冰鞋；溜冰
@@ -4784,10 +4784,10 @@ soccer,n.足球
 social,adj.社會的
 socialism,n.社會主義
 socially,adj.善於交際地
-society,社會
+society,n.社會
 sociological,adj.社會學的
 sociology,n.社會學
-sock(s),n.短襪
+sock,n.短襪
 soda,n.蘇打水
 sodium,n.鈉
 sofa,n.沙發
@@ -4939,7 +4939,7 @@ stimulus,n.刺激(物)
 sting,n./v.刺傷(處)；刺
 stingy,adj.小氣的
 stir,v.攪動
-stocking(s),n.長襪
+stocking,n.長襪
 stomach,n.胃
 stone,n./v.石頭
 stool,n.凳子
@@ -5119,7 +5119,7 @@ talkative,adj.健談的
 tall,adj.高的
 tame,adj.馴∣服的
 tan,v.(使)曬黑
-tangerine,n橘子
+tangerine,n.橘子
 tangible,adj.明確的；實質的
 tank,n.大容器
 tanker,n.油輪
@@ -5158,7 +5158,7 @@ temple,n.廟宇
 temporary,adj.暫時的
 tempt,v.慫恿
 temptation,n.誘惑
-ten,n.十
+ten,n.十
 tenant,n.房客
 tend,v.有…的傾向　
 tendency,n.癖好
@@ -5166,7 +5166,7 @@ tender,adj.嫩的
 tennis,n.網球(運動)
 tense,adj.緊張的
 tension,n.緊張
-tent,n帳篷
+tent,n.帳篷
 tentative,adj.試驗性的
 tern,n.期限
 terminal,n.終點；總站
@@ -5209,8 +5209,8 @@ think,v.想
 third,adj./n.第三
 thirst,n.口渴
 thirsty,adj.口渴的
-thirteen,adj./n.十三
-thirty,adj./n.三十
+thirteen,adj./n.十三
+thirty,adj./n.三十
 thorough,adj.徹底的
 those,adj./pron.那些
 though,adv./conj.然而；雖然
@@ -5293,7 +5293,7 @@ tournament,n.錦標賽
 tourism,n.觀光業
 tourist,n.觀光客
 tow,v./n.拖
-toward(s),prep.向
+toward,prep.向
 towel,n.毛巾
 tower,n./v.塔樓；屹立
 town,n.城鎮
@@ -5362,7 +5362,7 @@ trust,n./v.信任
 truth,n.事實
 try,n./v.嘗試
 tsunami,n.(源自日語)海嘯
-tub,n浴缸；盆
+tub,n.浴缸；盆
 tube,n.管子
 tuberculosis,n.肺結核
 Tuesday,n.星期 v.
@@ -5377,8 +5377,8 @@ turn,n./v.轉動
 tumpike,n.付費高速公路
 turtle,n.(海)龜
 tutor,n.家庭教師
-twelve,adj./n.十二
-twenty,adj./n.二十
+twelve,adj./n.十二
+twenty,adj./n.二十
 twice,adv.兩次
 twig,n.細枝
 twin,n.孿生子之一
@@ -5387,7 +5387,7 @@ twist,n./v.彎曲；扭曲
 two,adj./n.二
 type,n.類型
 type,v.打字
-typewriter,n打字機
+typewriter,n.打字機
 typhoon,n.颱風
 typical,adj.典型的
 typist,n.打字員
@@ -5486,7 +5486,7 @@ vanity,n.自負
 vapor,n.水蒸氣
 variable,adj.易變的
 variation,n.變化
-variety,n多樣化
+variety,n.多樣化
 various,adj.各式各樣的
 vary,v.變化
 vase,n.花瓶
@@ -5542,7 +5542,7 @@ visual,adj.視覺的
 visualize,v.想像
 vital,adj.維持生命所必需的
 vitamin,n.維他命
-vivid,adj生動的
+vivid,adj.生動的
 vocabulary,n.詞彙
 vocal,adj.發音的
 vocation,n.職業
@@ -5606,7 +5606,7 @@ Wednesday,n.星期三
 weed,n.雜草
 week,n.週
 weekly,adj./adv.一週一次的
-weekday(s),n.工作日
+weekday,n.工作日
 weekend,n.週末
 weep,v.哭泣
 weigh,v.稱…的重量
@@ -5624,7 +5624,7 @@ whatever,adj./advJpron./conj. 任何的；無論什麼
 whatsoever,adj.任何的
 wheat,n.小麥
 wheel,n./v.輪子；旋轉
-wheelchair,n:輪椅
+wheelchair,n.輪椅
 when,pron./adv./conj. 那時；什麼時候
 whenever,adv./conj.無論什麼時候；每當
 where,adv./pron./conj. 在哪裡；哪裡
