@@ -81,6 +81,9 @@ def sol(in_path, out_path):
         while records.count(remove_item):
             records.remove(remove_item)
 
+        for _ in range(21 - len(records)):
+            records.append('0')
+        
         total = 0
         count_spare = 0
         count_strike = 0

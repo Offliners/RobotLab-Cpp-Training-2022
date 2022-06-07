@@ -1,0 +1,15 @@
+3 14 4
+enter 0 1 0
+enter 1 2 0
+enter 0 3 0
+enter 2 4 0
+enter 1 5 1
+enter 0 6 1
+enter 1 7 1
+enter 3 8 1
+enter 1 9 2
+enter 0 10 2
+close 0
+go 0
+close 0
+go 2
