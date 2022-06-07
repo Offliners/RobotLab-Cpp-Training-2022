@@ -11,3 +11,9 @@
 	3. 更新 `7000.csv` 中詞性與中文意思沒有用"."分開的地方
 	4. `Q2 - Vocabulary 7000` 讀取時可以使用 `cp950` 編碼
 	5. `Q4 - Bowling` 請不要直接複製pdf上的 input 來測試，由於經過word轉換pdf後，"-"換變成"–"
+
+* 2022/06/05
+	1. 加入 `Q5 – Simple Calculator (Stack)`
+	2. 加入 `Q6 – McDonald's (Queue)`
+	3. 上傳 `q5_testcase`
+	4. 上傳 `q6_testcase`
