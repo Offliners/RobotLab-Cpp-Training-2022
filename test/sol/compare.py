@@ -82,6 +82,9 @@ for question in questions:
         else:
             result = 'AC'
 
+        if runtimes[i] > cfg['time_limit']:
+            result = 'TLE'
+
         print('{:^10s}{:^10s}{:^10s}'.format('#' + str(i), result, str(runtimes[i]) + 'ms'))
 
     print('\n========={:^10s}========='.format('Result'))
