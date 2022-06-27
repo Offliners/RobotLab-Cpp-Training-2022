@@ -58,16 +58,32 @@ for question in questions:
 
         if ans != ans_gt:
             if question == 'q1':
-                if float(ans[0]) != float(ans_gt[0]):
+                try:
+                    test_ans = float(ans[0])
+                    test_ans_gt = float(ans_gt[0])
+                    if test_ans != test_ans_gt:
+                        result = 'WA'
+                        wa_count += 1
+                    elif len(ans) != len(ans_gt):
+                        result = 'WA'
+                        wa_count += 1
+                    elif len(ans) > 1:
+                        if ans[1] != ans_gt[1]:
+                            result = 'WA'
+                            wa_count += 1
+                        else:
+                            result = 'AC'
+                    else:
+                        result = 'AC'
+
+                except:
                     result = 'WA'
                     wa_count += 1
-                else:
-                    result = 'AC'
         else:
             result = 'AC'
 
         print('{:^10s}{:^10s}{:^10s}'.format('#' + str(i), result, str(runtimes[i]) + 'ms'))
 
-    print('\n======={:^10s}======='.format('Result'))
+    print('\n========={:^10s}========='.format('Result'))
     print('{:<9s}:   {:>3s} %'.format('AC Rate', str(round((1 - wa_count / N) * 100))))
     print('{:<9s}:   {:>3s} ms'.format('Runtime', str(round(sum(runtimes) / N))))
