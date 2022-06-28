@@ -9,7 +9,7 @@ class GPA
         GPA(int);
         void input_grade(std::string);
         double grade_table(const double) const;
-        double get_GPA() const;
+        void get_GPA() const;
         bool is_flunk_out() const;
         ~GPA();
 

@@ -33,27 +33,27 @@ $ docker run cpp_training
 ```
 
 ## Usage
-* ¨Ï¥Î`Makefile`
+* ä½¿ç”¨`Makefile`
 ```shell
 $ git clone https://github.com/Offliners/RobotLab-Cpp-Training-2022.git
 $ cd RobotLab-Cpp-Training-2022
-$ make                      // ½sÄ¶©Ò¦³ÀÉ®×¨Ó²£¥Í°õ¦æÀÉ¡A°õ¦æÀÉ³£©ñ¦bbuild¸ê®Æ§¨¤¤
+$ make                      // ç·¨è­¯æ‰€æœ‰æª”æ¡ˆä¾†ç”¢ç”ŸåŸ·è¡Œæª”ï¼ŒåŸ·è¡Œæª”éƒ½æ”¾åœ¨buildè³‡æ–™å¤¾ä¸­
 $ cd build
-$ ./hello                   // °õ¦æhello°õ¦æÀÉ
+$ ./hello                   // åŸ·è¡ŒhelloåŸ·è¡Œæª”
 Hello World!
-$ make clean                // ¨Ï¥Î§¹²¦«á¥i¥H¿é¤J¦¹«ü¥O¨Ó§R°£©Ò¦³°õ¦æÀÉ
+$ make clean                // ä½¿ç”¨å®Œç•¢å¾Œå¯ä»¥è¼¸å…¥æ­¤æŒ‡ä»¤ä¾†åˆªé™¤æ‰€æœ‰åŸ·è¡Œæª”
 ```
 
-* ¨Ï¥Î`CMakeLists.txt`
+* ä½¿ç”¨`CMakeLists.txt`
 ```shell
 $ git clone https://github.com/Offliners/RobotLab-Cpp-Training-2022.git
-$ mkdir build               // «Ø¥ßbuild¸ê®Æ§¨¨Ó©ñ­Ó±M®×
-$ cd build                  // «e©¹build
-$ cmake ..                  // ²£¥ÍMakefile
-$ make                      // ½sÄ¶¨Ó²£¥Í°õ¦æÀÉ¡A°õ¦æÀÉ³£¦b¦U±M®×¸ê®Æ§¨¤¤
-$ cd Hello                  // «e©¹Hello
-$ ./hello                   // °õ¦æhello°õ¦æÀÉ
+$ mkdir build               // å»ºç«‹buildè³‡æ–™å¤¾ä¾†æ”¾å€‹å°ˆæ¡ˆ
+$ cd build                  // å‰å¾€build
+$ cmake ..                  // ç”¢ç”ŸMakefile
+$ make                      // ç·¨è­¯ä¾†ç”¢ç”ŸåŸ·è¡Œæª”ï¼ŒåŸ·è¡Œæª”éƒ½åœ¨å„å°ˆæ¡ˆè³‡æ–™å¤¾ä¸­
+$ cd Hello                  // å‰å¾€Hello
+$ ./hello                   // åŸ·è¡ŒhelloåŸ·è¡Œæª”
 Hello World!
 $ cd ..
-$ make clean                // ¨Ï¥Î§¹²¦«á¥i¥H¿é¤J¦¹«ü¥O¨Ó§R°£©Ò¦³°õ¦æÀÉ
+$ make clean                // ä½¿ç”¨å®Œç•¢å¾Œå¯ä»¥è¼¸å…¥æ­¤æŒ‡ä»¤ä¾†åˆªé™¤æ‰€æœ‰åŸ·è¡Œæª”
 ```

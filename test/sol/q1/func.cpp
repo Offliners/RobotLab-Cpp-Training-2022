@@ -77,13 +77,15 @@ double GPA::grade_table(const double grade) const
     } 
 }
 
-double GPA::get_GPA() const
+void GPA::get_GPA() const
 {
+    int gpa_round;
     if(credit_ == 0)
-        return 0;
-
-    int gpa_round = std::round(100 * total_ / credit_);
-    return gpa_round / 100 + (gpa_round % 100) / 100.0;
+        gpa_round = 0;
+    else
+        gpa_round = std::round(100 * total_ / credit_);
+     
+    std::cout << gpa_round / 100 + (gpa_round % 100) / 100.0 << std::endl;
 }
 
 bool GPA::is_flunk_out() const

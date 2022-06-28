@@ -11,7 +11,7 @@ int main(void)
 
     GPA gpa(stoi(n));
 
-    cout << gpa.get_GPA() << endl;
+    gpa.get_GPA();
 
     if(gpa.is_flunk_out())
         cout << "flunk out" << endl;
