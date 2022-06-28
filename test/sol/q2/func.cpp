@@ -15,6 +15,13 @@ Vocab::Vocab(std::string path)
 void Vocab::CSV_reader(const std::string path)
 {
     std::ifstream fin(path);
+
+    if(!fin.good())
+    {
+        std::cout << "CSV not found!" << std::endl;
+        return;
+    }
+
     char delimiter = ',';
     for(std::string line; std::getline(fin, line);)
     {

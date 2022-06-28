@@ -107,3 +107,4 @@ for question in questions:
     print('{:<9s}:   {:>3s} %'.format('AC Rate', str(round((1 - wa_count / N) * 100))))
     print('{:<9s}:   {:>3s} ms'.format('Runtime', str(round(sum(runtimes) / N))))
     print('{:<9s}:   {:>3s} KB'.format('Memory', str(round(sum(memories) / N))))
+    print('\n')
