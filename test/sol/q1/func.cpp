@@ -31,9 +31,9 @@ void GPA::input_grade(std::string input_data)
     else if(input_data.substr(0, pos) == "W")
         grade = -1.0;
     else
-        grade = std::stod(input_data.substr(0, pos));
+        grade = (pos == 0 ? 0 : std::stod(input_data.substr(0, pos)));
 
-    int credit = std::stoi(input_data.substr(pos + 1, input_data.length()));
+    int credit = (pos == 0 ? 0 : std::stoi(input_data.substr(pos + 1, input_data.length())));
 
     credit_with_w_ += credit;
     grade = grade_table(grade);

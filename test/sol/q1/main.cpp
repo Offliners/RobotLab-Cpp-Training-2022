@@ -1,15 +1,15 @@
 #include<iostream>
+#include<string>
 #include"func.h"
 
 using namespace std;
 
 int main(void)
 {
-    int n;
+    string n;
+    std::getline(std::cin, n);
 
-    cin >> n;
-    cin.get();
-    GPA gpa(n);
+    GPA gpa(stoi(n));
 
     cout << gpa.get_GPA() << endl;
 
