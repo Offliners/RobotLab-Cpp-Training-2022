@@ -9,7 +9,7 @@ int main(void)
 
     cin >> n;
     cin.get();
-    string vocab_csv = "7000.csv";
+    string vocab_csv = "./q2/7000.csv";
     Vocab vocab(n, vocab_csv);
 
 

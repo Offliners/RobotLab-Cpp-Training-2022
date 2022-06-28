@@ -1,5 +1,6 @@
 cfg = {
     'N' : 50,
-    'time_limit' : 3000,
+    'time_limit' : 1000,
+    'memory_limit' : 1024,
     'questions' : ['q1']
 }
