@@ -4,8 +4,6 @@ project(Cpp_test)
 set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS "-std=c++11")
 
-file(COPY ./q2/7000.csv DESTINATION ./q2)
-
 add_subdirectory(q1)
 add_subdirectory(q2)
 add_subdirectory(q3)

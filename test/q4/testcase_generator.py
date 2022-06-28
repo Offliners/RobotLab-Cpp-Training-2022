@@ -101,7 +101,7 @@ def sol(in_path, out_path):
                 count_spare += 1
                 total += convert(records, i)
 
-                if i < len(records) - 1:
+                if i < len(records) - 3:
                     total += convert(records, i+1)
             else:
                 total += convert(records, i)

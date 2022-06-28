@@ -8,11 +8,10 @@ int main(void)
     string record;
     std::getline(std::cin, record);
 
+    Bowling bowling(record);
 
-    // cout << gpa.get_GPA() << endl;
-
-    // if(gpa.is_flunk_out())
-    //     cout << "flunk out" << endl;
+    bowling.get_score();
+    bowling.get_reward();
 
     return 0;
 }

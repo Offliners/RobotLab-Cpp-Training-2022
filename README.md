@@ -12,10 +12,10 @@ Update log : [log](test/update_log.md)
 
 Solution (2022/06/29 released) : [Link](test/sol/solve.md)
 
-* Q1 ??? [GPA Calculator](test/q1/q1.md)
-* Q2 ??? [Vocabulary 7000](test/q2/q2.md)
-* Q3 ??? [Pointer](test/q3/q3.md)
-* Q4 ??? [Bowling](test/q4/q4.md)
+* Q1 - [GPA Calculator](test/q1/q1.md)
+* Q2 - [Vocabulary 7000](test/q2/q2.md)
+* Q3 - [Pointer](test/q3/q3.md)
+* Q4 - [Bowling](test/q4/q4.md)
 * Q5 - [Simple Calculator (Stack)](test/q5/q5.md)
 * Q6 - [McDonald's (Queue)](test/q6/q6.md)
 
