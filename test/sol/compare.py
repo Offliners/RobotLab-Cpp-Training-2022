@@ -4,8 +4,6 @@ import tracemalloc
 import subprocess
 from cfg import cfg
 
-questions = cfg['questions']
-
 def check_file_exist(path):
     if os.path.isfile(path):
         return True
@@ -19,6 +17,7 @@ def check_folder_exist(path):
         return False
 
 N = cfg['N']
+questions = cfg['questions']
 for question in questions:
     os.makedirs(f'./{question}_output', exist_ok=True)
 

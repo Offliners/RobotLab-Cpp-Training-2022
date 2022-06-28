@@ -8,12 +8,13 @@ class Vocab
 {
     public:
         Vocab(int, std::string);
-        void CSV_reader();
+        void CSV_reader(const std::string);
         ~Vocab();
 
     private:
         int num_word_ = 0;
-        std::string csv_path_ = "";
+        std::vector<std::string> english_meaning;
+        std::vector<std::string> chinese_meaning;
 };
 
 #endif
