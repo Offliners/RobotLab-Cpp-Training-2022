@@ -1,6 +1,8 @@
 ![cover](meme.JPG)
 
-# NTU ME Robotics Lab - C++ Training (2022/03/19 released)
+# NTU ME Robotics Lab - C++ Training
+2022/03/19 released
+
 Report : [pdf](20220319_training.pdf)
 
 ## Test Content (2022/6/3 released)
@@ -10,10 +12,10 @@ Update log : [log](test/update_log.md)
 
 Solution (2022/06/29 released) : [Link](test/sol/solve.md)
 
-* Q1 â€“ [GPA Calculator](test/q1/q1.md)
-* Q2 â€“ [Vocabulary 7000](test/q2/q2.md)
-* Q3 â€“ [Pointer](test/q3/q3.md)
-* Q4 â€“ [Bowling](test/q4/q4.md)
+* Q1 ??? [GPA Calculator](test/q1/q1.md)
+* Q2 ??? [Vocabulary 7000](test/q2/q2.md)
+* Q3 ??? [Pointer](test/q3/q3.md)
+* Q4 ??? [Bowling](test/q4/q4.md)
 * Q5 - [Simple Calculator (Stack)](test/q5/q5.md)
 * Q6 - [McDonald's (Queue)](test/q6/q6.md)
 
@@ -31,29 +33,29 @@ $ docker run cpp_training
 ```
 
 ## Usage
-* ä½¿ç”¨`Makefile`
+* ä½¿ç?¨`Makefile`
 ```shell
 $ git clone https://github.com/Offliners/RobotLab-Cpp-Training-2022.git
 $ cd RobotLab-Cpp-Training-2022
-$ make                      // ç·¨è­¯æ‰€æœ‰æª”æ¡ˆä¾†ç”¢ç”ŸåŸ·è¡Œæª”ï¼ŒåŸ·è¡Œæª”éƒ½æ”¾åœ¨buildè³‡æ–™å¤¾ä¸­
+$ make                      // ç·¨è­¯??????æª?æ¡?ä¾???¢ç????·è??æª?ï¼???·è??æª???½æ?¾å?¨buildè³????å¤¾ä¸­
 $ cd build
-$ ./hello                   // åŸ·è¡ŒhelloåŸ·è¡Œæª”
+$ ./hello                   // ??·è??hello??·è??æª?
 Hello World!
 
-$ make clean                // ä½¿ç”¨å®Œç•¢å¾Œå¯ä»¥è¼¸å…¥æ­¤æŒ‡ä»¤ä¾†åˆªé™¤æ‰€æœ‰åŸ·è¡Œæª”
+$ make clean                // ä½¿ç?¨å????¢å????¯ä»¥è¼¸å?¥æ­¤???ä»¤ä????ªé?¤æ???????·è??æª?
 ```
 
-* ä½¿ç”¨`CMakeLists.txt`
+* ä½¿ç?¨`CMakeLists.txt`
 ```shell
 $ git clone https://github.com/Offliners/RobotLab-Cpp-Training-2022.git
-$ mkdir build               // å»ºç«‹buildè³‡æ–™å¤¾ä¾†æ”¾å€‹å°ˆæ¡ˆ
-$ cd build                  // å‰å¾€build
-$ cmake ..                  // ç”¢ç”ŸMakefile
-$ make                      // ç·¨è­¯ä¾†ç”¢ç”ŸåŸ·è¡Œæª”ï¼ŒåŸ·è¡Œæª”éƒ½åœ¨å„å°ˆæ¡ˆè³‡æ–™å¤¾ä¸­
-$ cd Hello                  // å‰å¾€Hello
-$ ./hello                   // åŸ·è¡ŒhelloåŸ·è¡Œæª”
+$ mkdir build               // å»ºç??buildè³????å¤¾ä????¾å??å°?æ¡?
+$ cd build                  // ???å¾?build
+$ cmake ..                  // ??¢ç??Makefile
+$ make                      // ç·¨è­¯ä¾???¢ç????·è??æª?ï¼???·è??æª???½å?¨å??å°?æ¡?è³????å¤¾ä¸­
+$ cd Hello                  // ???å¾?Hello
+$ ./hello                   // ??·è??hello??·è??æª?
 Hello World!
 
 $ cd ..
-$ make clean                // ä½¿ç”¨å®Œç•¢å¾Œå¯ä»¥è¼¸å…¥æ­¤æŒ‡ä»¤ä¾†åˆªé™¤æ‰€æœ‰åŸ·è¡Œæª”
+$ make clean                // ä½¿ç?¨å????¢å????¯ä»¥è¼¸å?¥æ­¤???ä»¤ä????ªé?¤æ???????·è??æª?
 ```

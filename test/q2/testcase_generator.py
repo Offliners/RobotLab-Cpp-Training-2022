@@ -1,22 +1,21 @@
-from itertools import count
 import os
 import csv
 import random
-from cfg import *
+from cfg import q2_cfg
 
 seed = q2_cfg['seed']
 random.seed(seed)
 
 def gen(M):
     english_voc = []
-    file_known = open(q2_cfg['7000_voc_csv'], 'r', encoding='cp950')
+    file_known = open(q2_cfg['7000_voc_csv'], 'r', encoding=q2_cfg['encoding'])
     csvreader = csv.reader(file_known)
     for row in csvreader:
         english_voc.append(row[0].lower())
     
     file_known.close()
 
-    with open(q2_cfg['unknown_txt'], 'r', encoding='cp950') as f:
+    with open(q2_cfg['unknown_txt'], 'r', encoding=q2_cfg['encoding']) as f:
         for line in f.readlines():
             english_voc.append(line.strip())
 
@@ -54,7 +53,7 @@ def gen(M):
     return test_cases
 
 def sol(in_path, out_path):
-    file = open(q2_cfg['7000_voc_csv'], 'r', encoding='cp950')
+    file = open(q2_cfg['7000_voc_csv'], 'r', encoding=q2_cfg['encoding'])
     csvreader = csv.reader(file)
 
     english_voc = []
@@ -77,7 +76,7 @@ def sol(in_path, out_path):
             except:
                 words.append(line.strip().lower())
         
-    with open(out_path, 'w', encoding='cp950') as f:
+    with open(out_path, 'w', encoding=q2_cfg['encoding']) as f:
         for word in words:
             try:
                 index = english_voc.index(word)

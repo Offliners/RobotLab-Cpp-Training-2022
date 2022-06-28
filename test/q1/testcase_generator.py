@@ -1,6 +1,6 @@
 import os
 import random
-from cfg import *
+from cfg import q1_cfg
 
 seed = q1_cfg['seed']
 random.seed(seed)

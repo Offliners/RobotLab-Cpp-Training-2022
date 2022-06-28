@@ -5,6 +5,9 @@ q2_cfg = {
     # Random seed
     'seed' : 0,
 
+    # encoding
+    'encoding' : 'cp950',
+
     # num of word
     'M_lower' : 1,
     'M_upper' : 1000,
