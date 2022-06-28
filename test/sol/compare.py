@@ -55,7 +55,7 @@ for question in questions:
 
     wa_count = 0
     for i in range(N):
-        with open(f'{testcase_path}/{i}.out', 'r') as f:
+        with open(f'{testcase_path}/{i}.out', 'r', encoding='cp950') as f:
             ans = f.readlines()
 
         with open(f'{question}_output/{i}.out', 'r', encoding='cp950') as f:

@@ -77,7 +77,7 @@ def sol(in_path, out_path):
             except:
                 words.append(line.strip().lower())
         
-    with open(out_path, 'w') as f:
+    with open(out_path, 'w', encoding='cp950') as f:
         for word in words:
             try:
                 index = english_voc.index(word)

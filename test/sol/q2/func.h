@@ -7,14 +7,15 @@
 class Vocab
 {
     public:
-        Vocab(int, std::string);
+        Vocab(std::string);
         void CSV_reader(const std::string);
+        void search_vocab(std::string);
+        std::string to_lower(std::string);
         ~Vocab();
 
     private:
-        int num_word_ = 0;
-        std::vector<std::string> english_meaning;
-        std::vector<std::string> chinese_meaning;
+        std::vector<std::string> english_meaning_;
+        std::vector<std::string> chinese_meaning_;
 };
 
 #endif
