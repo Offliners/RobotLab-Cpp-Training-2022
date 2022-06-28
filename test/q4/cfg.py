@@ -1,21 +1,21 @@
 q4_cfg = {
-    # 測資數量
+    # num of testcase
     'N' : 50,
 
     # Random seed
     'seed' : 0,
 
-    # 局數
+    # boundary of round
     'round_lower' : 1,
     'round_upper' : 10,
 
-    # 擊倒瓶數
+    # boundary of bottle
     'bottle_lower' : 0,
     'bottle_upper' : 10,
 
-    # 積分基本分
+    # init reward
     'reward' : 40,
     
-    # 測資輸出路徑
+    # testcase output path
     'save_path' : './testcase'
 }

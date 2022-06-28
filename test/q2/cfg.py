@@ -1,18 +1,18 @@
 q2_cfg = {
-    # 測資數量
+    # num of testcase
     'N' : 50,
 
     # Random seed
     'seed' : 0,
 
-    # 單字數量
+    # num of word
     'M_lower' : 1,
     'M_upper' : 1000,
     
-    # 資料路徑
+    # data path
     '7000_voc_csv' : '7000.csv',
     'unknown_txt' : 'unknown.txt',
 
-    # 測資輸出路徑
+    # testcase output path
     'save_path' : './testcase'
 }
