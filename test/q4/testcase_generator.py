@@ -81,7 +81,8 @@ def sol(in_path, out_path):
         while records.count(remove_item):
             records.remove(remove_item)
 
-        for _ in range(21 - len(records)):
+        rounds = len(records)
+        for _ in range(21 - rounds):
             records.append('0')
         
         total = 0
@@ -92,16 +93,16 @@ def sol(in_path, out_path):
                 count_strike += 1
                 total += 10
 
-                if i < len(records) - 3:
+                if i < len(records) - 2:
                     total += convert(records, i+1)
                 
-                if i < len(records) - 3:
+                if i < len(records) - 2:
                     total += convert(records, i+2)
             elif records[i] == '/':
                 count_spare += 1
                 total += convert(records, i)
 
-                if i < len(records) - 3:
+                if i < len(records) - 2:
                     total += convert(records, i+1)
             else:
                 total += convert(records, i)
