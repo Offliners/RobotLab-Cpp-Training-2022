@@ -75,7 +75,7 @@ for question in questions:
                         result = 'WA'
                         wa_count += 1
                     elif len(ans) > 1:
-                        if ans[1] != ans_gt[1]:
+                        if ans[1].strip() != ans_gt[1].strip():
                             result = 'WA'
                             wa_count += 1
                         else:
