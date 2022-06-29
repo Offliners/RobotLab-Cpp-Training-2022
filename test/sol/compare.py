@@ -42,11 +42,12 @@ for question in questions:
         start_time = time.time()
         p = subprocess.Popen(f'./{sol_exec_path} < {testcase_path}/{i}.in > {question}_output/{i}.out', shell=True)
         current, peak = tracemalloc.get_traced_memory()
-        memories.append(current / 10**6 * 1024)
+
+        p.communicate()
         end_time = time.time()
         tracemalloc.stop() 
-        
-        p.communicate()
+
+        memories.append(peak / 10**6 * 1024)
         runtimes.append(round((end_time - start_time) * 1000))
     
 
