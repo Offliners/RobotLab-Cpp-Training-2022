@@ -55,6 +55,7 @@ for question in questions:
     print('=' * 30)
 
     wa_count = 0
+    results = []
     for i in range(N):
         with open(f'{testcase_path}/{i}.out', 'r', encoding='cp950') as f:
             ans = f.readlines()
@@ -102,6 +103,7 @@ for question in questions:
             wa_count += 1
             result = 'RE'
 
+        results.append(result)
         print('{:^10s}{:^10s}{:^10s}'.format('#' + str(i), result, str(runtimes[i]) + 'ms'))
 
     print('\n========={:^10s}========='.format('Result'))
@@ -109,3 +111,9 @@ for question in questions:
     print('{:<9s}:   {:>3s} ms'.format('Runtime', str(round(sum(runtimes) / N))))
     print('{:<9s}:   {:>3s} KB'.format('Memory', str(round(sum(memories) / N))))
     print('\n')
+
+    os.makedirs(cfg['result_csv'], exist_ok=True)
+    with open(os.path.join(cfg['result_csv'], f'{question}_output.csv'), 'w', encoding='utf8') as f:
+        f.writelines('Testcase,Result,Runtime\n')
+        for i in range(N):
+            f.writelines(f'#{i},{results[i]},{runtimes[i]}ms\n')
