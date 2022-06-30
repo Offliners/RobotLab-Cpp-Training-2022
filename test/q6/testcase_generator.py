@@ -2,6 +2,9 @@ import os
 import random
 from cfg import q6_cfg
 
+seed = q6_cfg['seed']
+random.seed(seed)
+
 class Customer():
     def __init__(self, group: int, id: int):
         self.group: int = group
@@ -90,6 +93,7 @@ class Counter():
         if self.length > 0:
             return x + ' '
         return x
+
 
 class McDonalds():
     def __init__(self, num):
