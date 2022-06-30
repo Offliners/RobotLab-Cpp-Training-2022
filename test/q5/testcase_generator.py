@@ -1,44 +1,105 @@
-import random
+import os
 import math
+import random
+from cfg import q5_cfg
 
-class Expression(object):
-    OPS = ['+', '-', '*', '/', '%']
+seed = q5_cfg['seed']
+random.seed(seed)
 
-    GROUP_PROB = 0.1
+operators = ['+', '-', '*', '/']
+parentheses_prob = q5_cfg['parentheses_prob']
 
-    MIN_NUM, MAX_NUM = 1, 20
+num_lower = q5_cfg['num_lower']
+num_upper = q5_cfg['num_upper']
 
-    def __init__(self, maxNumbers, _maxdepth=None, _depth=0):
-        """
-        maxNumbers has to be a power of 2
-        """
-        if _maxdepth is None:
-            _maxdepth = math.log(maxNumbers, 2) - 1
+class MathExpression(object):
+    def __init__(self, maxNumbers, maxdepth_=None, depth_=0):
+        if maxdepth_ is None:
+            maxdepth_ = math.log(maxNumbers, 2) - 1
 
-        if _depth < _maxdepth and random.randint(0, _maxdepth) > _depth:
-            self.left = Expression(maxNumbers, _maxdepth, _depth + 1)
+        if depth_ < maxdepth_ and random.randint(0, maxdepth_) > depth_:
+            self.left = MathExpression(maxNumbers, maxdepth_, depth_ + 1)
         else:
-            self.left = random.randint(Expression.MIN_NUM, Expression.MAX_NUM)
+            self.left = random.randint(num_lower, num_upper)
 
-        if _depth < _maxdepth and random.randint(0, _maxdepth) > _depth:
-            self.right = Expression(maxNumbers, _maxdepth, _depth + 1)
+        if depth_ < maxdepth_ and random.randint(0, maxdepth_) > depth_:
+            self.right = MathExpression(maxNumbers, maxdepth_, depth_ + 1)
         else:
-            self.right = random.randint(Expression.MIN_NUM, Expression.MAX_NUM)
+            self.right = random.randint(num_lower, num_upper)
 
-        self.grouped = random.random() < Expression.GROUP_PROB
-        self.operator = random.choice(Expression.OPS)
+        self.grouped = random.random() < parentheses_prob
+        self.operator = random.choice(operators)
 
     def __str__(self):
         s = '{0!s}{1}{2!s}'.format(self.left, self.operator, self.right)
+
         if self.grouped:
             return '({0})'.format(s)
         else:
             return s
 
 
-equ = Expression(256)
+# def myeval(in_expr):
+#     result = 0
 
-print(equ)
+#     exprs = in_expr.split('/')
+#     start_index = 0
+#     for i in range(len(exprs) - 1):
+#         next_operand = ''
+#         for j in range(len(exprs[i+1])):
+#             if exprs[i+1][j].isdigit():
+#                 next_operand += exprs[i+1][j]
+#             else:
+#                 next_index = j
+#                 break
+                
+#         print(next_operand)
+#         result += math.floor(eval(exprs[i][start_index:]) / int(next_operand))
 
-print(eval(str(equ)))
 
+def gen():
+    continue_cal_prob = q5_cfg['continue_cal_prob']
+    depth_lower = q5_cfg['depth_lower']
+    depth_upper = q5_cfg['depth_upper']
+    mod_prob = q5_cfg['mod_prob']
+    prob_decay = q5_cfg['prob_decay']
+
+    tree_depth = 2 ** (random.randint(depth_lower, depth_upper))
+    equ = str(MathExpression(tree_depth))
+    while random.random() < continue_cal_prob:
+        equ += '='
+        equ += random.choice(operators)
+
+        tree_depth = 2 ** (random.randint(depth_lower, depth_upper))
+        equ += str(MathExpression(tree_depth))
+
+        if random.random() < mod_prob:
+            exprs = equ.split('=')
+
+            result = 0
+            for i in range(len(exprs)):
+                if i == 0:
+                    result += eval(exprs[i])
+                else:
+                    result += eval(str(result) + exprs[i])
+
+            if result > 0:
+                mod_num = random.randint(num_lower, num_upper)
+                equ += '%{0}'.format(mod_num)
+        
+        continue_cal_prob *= prob_decay
+        
+    if equ[-1] != '=':
+        equ += '='
+
+    return equ
+
+N = q5_cfg['N']
+save_path = q5_cfg['save_path']
+os.makedirs(save_path, exist_ok=True)
+for i in range(N):
+    with open(os.path.join(save_path, f'{i}.in'), 'w') as f:
+        expr = gen()
+        f.writelines(expr + '\n')
+
+    # sol(os.path.join(save_path, f'{i}.in'), os.path.join(save_path, f'{i}.out'))
