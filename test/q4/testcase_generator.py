@@ -110,9 +110,9 @@ def sol(in_path, out_path):
         reward = q4_cfg['reward']
         reward = round(reward * 1.1**count_spare * 1.2**count_strike)
 
-        with open(out_path, 'w') as f:
-            f.writelines(f'{total}\n')
-            f.writelines(f'{reward}\n')
+    with open(out_path, 'w') as f:
+        f.writelines(f'{total}\n')
+        f.writelines(f'{reward}\n')
 
 
 N = q4_cfg['N']

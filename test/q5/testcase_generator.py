@@ -39,22 +39,14 @@ class MathExpression(object):
             return s
 
 
-# def myeval(in_expr):
-#     result = 0
-
-#     exprs = in_expr.split('/')
-#     start_index = 0
-#     for i in range(len(exprs) - 1):
-#         next_operand = ''
-#         for j in range(len(exprs[i+1])):
-#             if exprs[i+1][j].isdigit():
-#                 next_operand += exprs[i+1][j]
-#             else:
-#                 next_index = j
-#                 break
-                
-#         print(next_operand)
-#         result += math.floor(eval(exprs[i][start_index:]) / int(next_operand))
+def myeval(in_expr):
+    if in_expr.find('/') != -1:
+        exprs = in_expr.split('/')
+        result = '//'.join(exprs)
+    else:
+        result = in_expr
+    
+    return eval(result)
 
 
 def gen():
@@ -79,9 +71,9 @@ def gen():
             result = 0
             for i in range(len(exprs)):
                 if i == 0:
-                    result += eval(exprs[i])
+                    result += myeval(exprs[i])
                 else:
-                    result += eval(str(result) + exprs[i])
+                    result += myeval(str(result) + exprs[i])
 
             if result > 0:
                 mod_num = random.randint(num_lower, num_upper)
@@ -94,6 +86,25 @@ def gen():
 
     return equ
 
+
+def sol(in_path, out_path):
+    with open(in_path, 'r') as f:
+        expr = f.readlines()[0].strip()
+
+        exprs = expr.split('=')
+
+        result = 0
+        for i in range(len(exprs)):
+            if i == 0:
+                result += myeval(exprs[i])
+            elif exprs[i]:
+                result += myeval(str(result) + exprs[i])
+        
+    with open(out_path, 'w') as f:
+        f.writelines(f'{result}\n')
+
+
+
 N = q5_cfg['N']
 save_path = q5_cfg['save_path']
 os.makedirs(save_path, exist_ok=True)
@@ -102,4 +113,4 @@ for i in range(N):
         expr = gen()
         f.writelines(expr + '\n')
 
-    # sol(os.path.join(save_path, f'{i}.in'), os.path.join(save_path, f'{i}.out'))
+    sol(os.path.join(save_path, f'{i}.in'), os.path.join(save_path, f'{i}.out'))
