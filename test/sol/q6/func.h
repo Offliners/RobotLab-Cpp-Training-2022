@@ -12,13 +12,29 @@ class McDonalds
         bool is_closed_ = false;
 };
 
-class Counter
+class LinkedList
 {
     public:
-        Counter();
-        ~Counter();
+        void PrintList();
+        void Push_front(int x);
+        void Push_back(int x);
+        void Delete(int x);
+        void Clear();
+        void Reverse();
     
     private:
+        ListNode *first = 0;
+};
+
+class ListNode
+{
+    friend class LinkedList;
+    public:
+        ListNode(int);
+
+    private:
+        int data = 0;
+        ListNode *next = 0;
 };
 
 #endif

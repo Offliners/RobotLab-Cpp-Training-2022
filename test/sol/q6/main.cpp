@@ -16,22 +16,21 @@ int main(void)
     {
         cin >> situation;
 
-        swticn(situation[0])
+        switch(situation[0])
         {
             case 'e':
                 break;
-            case 'e':
+            case 'g':
                 break;
-            case 'e':
+            case 'l':
                 break;
-            case 'e':
+            case 'c':
                 break;
             default:
-                printf("Unknown Situation!\n");
+                cout << "Unknown Situation!" << endl;
                 break;
         }
     }
-
 
     return 0;
 }
