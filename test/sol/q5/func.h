@@ -16,7 +16,6 @@ class SimpleCalculator
         void calculate();
         bool is_precedence(char);
         void eval(std::string, int);
-        LLI down_floor(LD);
         ~SimpleCalculator();
 
     private:

@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 #include<algorithm>
 #include"func.h"
 
@@ -139,7 +140,7 @@ void SimpleCalculator::eval(std::string postfix, int index)
 					result = a * b;
 					break;
 				case '/':
-					result = down_floor((LD)a / b);
+					result = std::floor((LD)a / b);
 					break;
 				case '%':
 					result = a % b;
@@ -157,13 +158,5 @@ void SimpleCalculator::eval(std::string postfix, int index)
     operand_stack.pop();
 }
 
-
-LLI SimpleCalculator::down_floor(LD num)
-{
-	if(num < 0)
-        return (LLI)(num - 1);
-    else
-        return (LLI)num;
-}
 
 SimpleCalculator::~SimpleCalculator() {};

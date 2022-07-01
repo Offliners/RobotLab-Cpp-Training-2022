@@ -6,8 +6,8 @@ q5_cfg = {
     'seed' : 0,
 
     # Boundart of tree depth
-    'depth_lower' : 1,
-    'depth_upper' : 8,
+    'depth_lower' : 8,
+    'depth_upper' : 32,
 
     # Probability of using parentheses
     'parentheses_prob' : 0.2,
@@ -16,8 +16,8 @@ q5_cfg = {
     'mod_prob' : 0.4,
 
     # Probability of continue calculation
-    'continue_cal_prob' : 0.9,
-    'prob_decay' : 0.95,
+    'continue_cal_prob' : 0.97,
+    'prob_decay' : 0.97,
 
     # Boundary of occured number
     'num_lower' : 1,

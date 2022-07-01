@@ -34,7 +34,15 @@ class MathExpression(object):
         s = '{0!s}{1}{2!s}'.format(self.left, self.operator, self.right)
 
         if self.grouped:
-            return '({0})'.format(s)
+            s = '({0})'.format(s)
+
+            mod_prob = q5_cfg['mod_prob']
+            if random.random() < mod_prob:
+                if myeval(s) > 0:
+                    mod_num = random.randint(num_lower, num_upper)
+                    s += '(({0})%{})'.format(s, mod_num)
+            
+            return s
         else:
             return s
 
@@ -53,7 +61,6 @@ def gen():
     continue_cal_prob = q5_cfg['continue_cal_prob']
     depth_lower = q5_cfg['depth_lower']
     depth_upper = q5_cfg['depth_upper']
-    mod_prob = q5_cfg['mod_prob']
     prob_decay = q5_cfg['prob_decay']
 
     tree_depth = 2 ** (random.randint(depth_lower, depth_upper))
@@ -64,20 +71,6 @@ def gen():
 
         tree_depth = 2 ** (random.randint(depth_lower, depth_upper))
         equ += str(MathExpression(tree_depth))
-
-        if random.random() < mod_prob:
-            exprs = equ.split('=')
-
-            result = 0
-            for i in range(len(exprs)):
-                if i == 0:
-                    result += myeval(exprs[i])
-                else:
-                    result += myeval(str(result) + exprs[i])
-
-            if result > 0:
-                mod_num = random.randint(num_lower, num_upper)
-                equ += '%{0}'.format(mod_num)
         
         continue_cal_prob *= prob_decay
         
@@ -109,7 +102,6 @@ def sol(in_path, out_path):
             f.writelines(f'{ans}\n')
 
 
-
 N = q5_cfg['N']
 save_path = q5_cfg['save_path']
 os.makedirs(save_path, exist_ok=True)
@@ -121,12 +113,12 @@ for i in range(N):
                 expr = gen()
 
                 exprs = expr.split('=')
-                for i in range(len(exprs)):
-                    if exprs[i]:
-                        if i == 0:
-                            result = myeval(exprs[i])
-                        elif exprs[i]:
-                            result = myeval(str(result) + exprs[i])
+                for j in range(len(exprs)):
+                    if exprs[j]:
+                        if j == 0:
+                            result = myeval(exprs[j])
+                        elif exprs[j]:
+                            result = myeval(str(result) + exprs[j])
                         
                         if result > q5_cfg['result_max'] or result < q5_cfg['result_min']:
                             flag = 1
