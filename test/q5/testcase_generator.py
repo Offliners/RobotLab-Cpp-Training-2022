@@ -98,9 +98,9 @@ def sol(in_path, out_path):
         for i in range(len(exprs)):
             if exprs[i]:
                 if i == 0:
-                    result += myeval(exprs[i])
+                    result = myeval(exprs[i])
                 elif exprs[i]:
-                    result += myeval(str(result) + exprs[i])
+                    result = myeval(str(result) + exprs[i])
             
                 results.append(result)
         
