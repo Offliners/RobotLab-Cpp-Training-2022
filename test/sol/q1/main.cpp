@@ -7,7 +7,7 @@ using namespace std;
 int main(void)
 {
     string n;
-    std::getline(std::cin, n);
+    getline(cin, n);
 
     GPA gpa(stoi(n));
 
