@@ -115,7 +115,29 @@ save_path = q5_cfg['save_path']
 os.makedirs(save_path, exist_ok=True)
 for i in range(N):
     with open(os.path.join(save_path, f'{i}.in'), 'w') as f:
-        expr = gen()
-        f.writelines(expr + '\n')
+        flag = 1
+        while flag:
+            try:
+                expr = gen()
+
+                exprs = expr.split('=')
+                for i in range(len(exprs)):
+                    if exprs[i]:
+                        if i == 0:
+                            result = myeval(exprs[i])
+                        elif exprs[i]:
+                            result = myeval(str(result) + exprs[i])
+                        
+                        if result > q5_cfg['result_max'] or result < q5_cfg['result_min']:
+                            flag = 1
+                        else:
+                            flag = 0
+
+            except:
+                flag = 1
+        
+        if flag == 0:
+            f.writelines(expr + '\n')
+
 
     sol(os.path.join(save_path, f'{i}.in'), os.path.join(save_path, f'{i}.out'))

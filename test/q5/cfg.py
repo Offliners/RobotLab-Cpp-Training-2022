@@ -7,7 +7,7 @@ q5_cfg = {
 
     # Boundart of tree depth
     'depth_lower' : 1,
-    'depth_upper' : 4,
+    'depth_upper' : 8,
 
     # Probability of using parentheses
     'parentheses_prob' : 0.2,
@@ -16,12 +16,16 @@ q5_cfg = {
     'mod_prob' : 0.4,
 
     # Probability of continue calculation
-    'continue_cal_prob' : 0.8,
+    'continue_cal_prob' : 0.9,
     'prob_decay' : 0.95,
 
     # Boundary of occured number
     'num_lower' : 1,
     'num_upper' : 20,
+
+    # Boundary of result
+    'result_min' : -9223372036854775808,
+    'result_max' : 9223372036854775807,
 
 
     # testcase output path
