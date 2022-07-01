@@ -104,7 +104,7 @@ int main(void)
 			// printf("\n");
 
 			LLI result = eval(postfix, index);
-			printf("Print: %lld\n", result);
+			printf("%lld\n", result);
 
 			memset(postfix, 0, index);
 

@@ -88,6 +88,7 @@ def gen():
 
 
 def sol(in_path, out_path):
+    results = []
     with open(in_path, 'r') as f:
         expr = f.readlines()[0].strip()
 
@@ -95,13 +96,17 @@ def sol(in_path, out_path):
 
         result = 0
         for i in range(len(exprs)):
-            if i == 0:
-                result += myeval(exprs[i])
-            elif exprs[i]:
-                result += myeval(str(result) + exprs[i])
+            if exprs[i]:
+                if i == 0:
+                    result += myeval(exprs[i])
+                elif exprs[i]:
+                    result += myeval(str(result) + exprs[i])
+            
+                results.append(result)
         
     with open(out_path, 'w') as f:
-        f.writelines(f'{result}\n')
+        for ans in results:
+            f.writelines(f'{ans}\n')
 
 
 

@@ -92,6 +92,12 @@ for question in questions:
             elif question == 'q4':
                 result = 'WA'
                 wa_count += 1
+            elif question == 'q5':
+                result = 'WA'
+                wa_count += 1
+            elif question == 'q6':
+                result = 'WA'
+                wa_count += 1
         else:
             result = 'AC'
 
