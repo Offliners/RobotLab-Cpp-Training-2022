@@ -1,6 +1,6 @@
 ![cover](meme.jpg)
 
-# NTU ME Robotics Lab - C++ Training
+# NTU ME Robot Lab - C++ Training
 2022/03/19 released
 
 Report : [pdf](20220319_training.pdf)
