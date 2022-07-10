@@ -97,15 +97,6 @@ int main(void)
                 exit(1);
         }
 
-        // for(int j = 0; j < M; ++j)
-        // {
-        //     printf("Bathroom no.%d : ", j);
-        //     if(bathroom[j].is_close)
-        //         printf("Closed\n");
-        //     else
-        //         print_bathroom(bathroom, j);
-        // }
-
         delete [] situation;
     }
 
