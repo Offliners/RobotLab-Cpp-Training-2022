@@ -5,7 +5,7 @@ q5_cfg = {
     # Random seed
     'seed' : 0,
 
-    # Boundart of tree depth
+    # Boundary of tree depth
     'depth_lower' : 8,
     'depth_upper' : 32,
 
