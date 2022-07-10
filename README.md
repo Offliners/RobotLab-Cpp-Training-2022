@@ -1,4 +1,4 @@
-![cover](meme.JPG)
+![cover](meme.jpg)
 
 # NTU ME Robotics Lab - C++ Training
 2022/03/19 released
